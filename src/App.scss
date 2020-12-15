@@ -1,0 +1,299 @@
+$primary: #FF2828;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dark {
+  .full-page {
+    background-color: black;
+  }
+
+  p{
+    color: white;
+  }
+
+  ul {
+    color: white;
+  }
+
+  .MuiTimelineConnector-root {
+    background-color: white !important;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  #projects img{
+    border: 4px solid white;
+  }
+
+  .MuiSvgIcon-root {
+    color: white !important;
+  }
+}
+
+.light {
+  .full-page {
+    background-color: white;
+  }
+
+  p{
+    color: black;
+  }
+
+  ul {
+    color: black;
+  }
+
+  .MuiTimelineConnector-root {
+    background-color: black !important;
+  }
+
+  h2 {
+    color: black;
+  }
+
+  #projects img{
+    border: 4px solid black;
+  }
+
+  .MuiSvgIcon-root {
+    color: black !important;
+  }
+}
+
+.full-page {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 10px;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 3rem;
+  font-family: "Geomanist", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.2;
+}
+
+section p {
+  font-size: 1.5rem;
+  font-family: inherit;
+  font-weight: normal;
+}
+
+span {
+  color: $primary;
+}
+
+.link {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: fit-content;
+}
+
+.glyphicon {
+  top: 4px;
+}
+
+@media(max-width: 676px) {
+  p {
+    font-size: 2.5rem;
+  }
+
+  .link {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 600px) {
+  .profile {
+    width: 40%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .profile {
+    width: 20%;
+  }
+}
+
+.topright {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  z-index: 1;
+}
+
+.MuiTimelineItem-missingOppositeContent:before {
+  content: none !important;
+}
+
+.MuiTimelineContent-root {
+  flex: 1 !important;
+  padding-left: 6px !important;
+  padding-bottom: 6px !important;
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+}
+
+.MuiTimelineDot-defaultGrey {
+  background-color: $primary !important;
+}
+
+.MuiTimelineDot-root .glyphicon {
+  position: unset;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.MuiTimelineConnector-root {
+  width: 4px !important;
+}
+
+.MuiTimelineOppositeContent-root {
+  flex: 0 !important;
+  padding-top: 30px !important;
+  padding-right: 9px !important;
+  padding-left: 0px !important;
+  font-weight: bold;
+}
+
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+
+.MuiPaper-root p {
+  font-size: 1.5rem;
+  font-family: inherit;
+  font-weight: normal;
+}
+
+.MuiPaper-rounded {
+  padding: 1px;
+  margin: 10px;
+}
+
+.MuiTimeline-root {
+  padding: 6px 0px !important;
+}
+
+.MuiPaper-elevation3 {
+  box-shadow: none !important;
+}
+
+.MuiSvgIcon-root {
+  font-size: 2.5rem !important;
+  margin: 5px;
+  margin-bottom: 25px;
+}
+
+.MuiSvgIcon-root:hover {
+  color: $primary !important;
+}
+
+h2 {
+  margin-top: 0px;
+  text-decoration: underline;
+  text-decoration-color: $primary;
+  font-family: "Geomanist", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+ul {
+  margin-bottom: 30px !important;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+.aws-btn {
+  --button-primary-color: $primary !important;
+  --button-raise-level: 6px !important;
+  --button-primary-color-hover: #C80404 !important;
+  --button-primary-color-active: #AC0202 !important;
+  --button-primary-color-dark: #AC0202 !important;
+  margin-bottom: 3rem !important;
+  margin-top: 1rem !important;
+
+  span {
+    color: white;
+  }
+}
+
+.badge {
+  padding: 8px 12px;
+  margin: 5px;
+}
+
+.languages {
+  .badge {
+    background-color: #0944AD;
+  }
+  h2 {
+    text-decoration-color: #0944AD;
+  }
+}
+
+.libraries {
+  .badge {
+    background-color: #0C7F15;
+  }
+  h2 {
+    text-decoration-color: #0C7F15;
+  }
+}
+
+.databases {
+  .badge {
+    background-color: #74006F;
+  }
+  h2 {
+    text-decoration-color: #74006F;
+  }
+}
+
+.tools {
+  padding: 15px;
+
+  div {
+    margin-bottom: 25px;
+  }
+  p {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  a {
+    margin-bottom: 10px;
+  }
+}
+
+#projects img {
+  width: 100%;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.spaced-row {
+  padding-top: 30px;
+}
