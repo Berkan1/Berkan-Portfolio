@@ -226,7 +226,7 @@ article {
 }
 
 .aws-btn {
-  --button-primary-color: $primary !important;
+  --button-primary-color: #FF2828 !important;
   --button-raise-level: 6px !important;
   --button-primary-color-hover: #C80404 !important;
   --button-primary-color-active: #AC0202 !important;
@@ -296,4 +296,5 @@ article {
 
 .spaced-row {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
