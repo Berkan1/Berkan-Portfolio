@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Berkan-Portfolio/static/css/main.668aaf34.chunk.css",
+    "main.css": "/Berkan-Portfolio/static/css/main.c374ebb5.chunk.css",
     "main.js": "/Berkan-Portfolio/static/js/main.25f48865.chunk.js",
     "main.js.map": "/Berkan-Portfolio/static/js/main.25f48865.chunk.js.map",
     "runtime-main.js": "/Berkan-Portfolio/static/js/runtime-main.f7b21108.js",
@@ -12,14 +12,14 @@
     "static/js/3.10ffd901.chunk.js.map": "/Berkan-Portfolio/static/js/3.10ffd901.chunk.js.map",
     "index.html": "/Berkan-Portfolio/index.html",
     "static/css/2.cd03942f.chunk.css.map": "/Berkan-Portfolio/static/css/2.cd03942f.chunk.css.map",
-    "static/css/main.668aaf34.chunk.css.map": "/Berkan-Portfolio/static/css/main.668aaf34.chunk.css.map",
+    "static/css/main.c374ebb5.chunk.css.map": "/Berkan-Portfolio/static/css/main.c374ebb5.chunk.css.map",
     "static/js/2.44e2018c.chunk.js.LICENSE.txt": "/Berkan-Portfolio/static/js/2.44e2018c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f7b21108.js",
     "static/css/2.cd03942f.chunk.css",
     "static/js/2.44e2018c.chunk.js",
-    "static/css/main.668aaf34.chunk.css",
+    "static/css/main.c374ebb5.chunk.css",
     "static/js/main.25f48865.chunk.js"
   ]
 }
