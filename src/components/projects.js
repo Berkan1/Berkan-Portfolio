@@ -45,8 +45,8 @@ function Projects() {
             <p>GigUnite</p>
             <section>
               <p>A full stack web application built using the ASP.NET Core framework. This application was created for my final
-                year project and allowed users to build find advertised gigs based on the musical interests in the profile they built.
-                This included features such as using Mailkit to send email alerts, Maps API to suggest meeting points and the Azure 
+                year project and allowed users to find advertised gigs based on their musical interests.
+                This included features such as using Mailkit to send email alerts, Google Maps API to suggest meeting points and the Azure 
                 Identity framework to securely authenticate users. This is unfortunately no longer available online due to hosting costs,
                 but there is a video demonstration of the application linked below.
               </p>
