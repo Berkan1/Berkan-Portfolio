@@ -9,7 +9,7 @@ function AboutMe() {
           <p>Hi there! I'm <span>Berkan</span>, a <span>frontend developer</span> from London with over <span>3 
             years</span> of professional experience creating interactive web applications.
           </p><br/>
-          <p>I'm a big fan of using tools like <span>React</span> to build reliable, responsive and performant software that can make a positive social impact!
+          <p>I'm a big fan of using tools like <span>React</span> to build responsive, accessible and performant software that can make a positive social impact!
           </p>
         </article>
         <a href="#skills"><p className='link'>See my skills and experience <i className="glyphicon glyphicon-menu-down"></i></p></a>
