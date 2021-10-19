@@ -21,7 +21,9 @@ function Projects() {
             </section>
           </Col>
           <Col sm={6} md={6} lg={6}>
-            <img src={process.env.PUBLIC_URL + '/watchthis-pic.png'} alt='WatchThis website'/>
+            <a href='https://watch-this-project.herokuapp.com/' target='_blank' rel="noreferrer">
+              <img src={process.env.PUBLIC_URL + '/watchthis-pic.png'} alt='WatchThis website'/>
+            </a>
           </Col>
         </Row>
         <Row className='spaced-row'>
@@ -37,7 +39,9 @@ function Projects() {
             </section>
           </Col>
           <Col sm={6} md={6} lg={6}>
-            <img src={process.env.PUBLIC_URL + '/cocktails-pic.png'} alt='Cocktails website'/>
+            <a href='https://berkan1.github.io/cocktails/#/' target='_blank' rel="noreferrer">
+              <img src={process.env.PUBLIC_URL + '/cocktails-pic.png'} alt='Cocktails website'/>
+            </a>
           </Col>
         </Row>
         <Row className='spaced-row'>
